@@ -6,7 +6,7 @@ Description: namespace assignment
 ***************************/
 
 
-var sica0019 = {
+var SICA0019 = {
     init: function () {
         let awesomeDiv = document.createElement("div");
 
