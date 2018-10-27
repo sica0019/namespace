@@ -28,6 +28,7 @@ var SICA0019 = {
         });
         awesomeDiv.addEventListener("mouseout", () => {
             awesomeDiv.classList.toggle("highlight");
+            awesomeDiv.removeAttribute("style");
         });
         
     }
