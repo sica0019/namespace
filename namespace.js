@@ -15,7 +15,7 @@ var SICA0019 = {
         
         
         awesomeDiv.addEventListener("mouseover", () => {
-            this.classList.toggle("highlight");
+            awesomeDiv.classList.toggle("highlight");
       
         });
         awesomeDiv.addEventListener("click", () => {
@@ -23,11 +23,11 @@ var SICA0019 = {
             awesomeDiv.style.color = "orange";
             awesomeDiv.style.borderBottomColor = "blue";
             awesomeDiv.style.borderTopColor = "green";
-            awesomeDiv.style.borderLeftColor = "pink";
+            awesomeDiv.style.borderLeftColor = "purple";
             awesomeDiv.style.borderRightColor = "yellow";
         });
         awesomeDiv.addEventListener("mouseout", () => {
-            this.classList.toggle("highlight");
+            awesomeDiv.classList.toggle("highlight");
         });
         
     }
